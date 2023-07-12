@@ -10,8 +10,8 @@ body {
   background: red;
 }
 
-.flex {
-  display: flex;
+.float {
+  float: left;
 }
 
 .green--box {
