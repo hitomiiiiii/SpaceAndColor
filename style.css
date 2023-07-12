@@ -10,20 +10,24 @@ body {
   background: red;
 }
 
-.float {
-  float: left;
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .green--box {
   width: 150px;
   height: 250px;
   background: #00ff1e;
+  float: left;
 }
 
 .blue--box {
   width: 250px;
   height: 250px;
   background: #3300ff;
+  float: left;
 }
 
 .yellow--box {
